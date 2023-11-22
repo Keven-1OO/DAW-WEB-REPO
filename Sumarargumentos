@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+        /* 
+        1. Mostrar por pantalla una palabra 
+        2. Que se compruebe si no se introducen argumentos por comando
+        3. Comprobrar si el argumento que se introduce coincide con la palabra
+        */ 
+        String palabra = "Palabra";
+        
+        
+        if (args[0].equals(palabra)) {
+            System.out.println("Correcto");
+            
+        } else {
+            System.out.println("Palabra incorrecta");
+            System.out.println("La palabra es " + palabra);
+        }
+
+        
+
+
+    }
+}
